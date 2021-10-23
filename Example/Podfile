@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MathematicsO_Example' do
+  pod 'MathematicsO', :path => '../'
+
+  target 'MathematicsO_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

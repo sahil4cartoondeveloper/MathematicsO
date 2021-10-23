@@ -1,0 +1,16 @@
+PODS:
+  - MathematicsO (0.1.0)
+
+DEPENDENCIES:
+  - MathematicsO (from `../`)
+
+EXTERNAL SOURCES:
+  MathematicsO:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MathematicsO: 1e8c6fc671c80450e3be7ce3a179e5194e48d159
+
+PODFILE CHECKSUM: 6bef090e008cc5a7cdd52e34089bb603130fe914
+
+COCOAPODS: 1.11.2

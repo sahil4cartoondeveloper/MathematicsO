@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332826E1712D877C410C859BE49D8458 /* MathematicsO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EB2B90DC6AE06FB51EF6F82FB2C1D /* MathematicsO-dummy.m */; };
+		3BA0C15DB34C7AF5630772F3A5F41359 /* Pods-MathematicsO_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EE2AFB7DB1B8C25DD27FE759474141 /* Pods-MathematicsO_Example-dummy.m */; };
+		47EEFA5CF77FBEFC8E6E87B7EDC7790B /* Pods-MathematicsO_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 171F150370506A116FAD8CE96C33B453 /* Pods-MathematicsO_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9140BE2BAF259D24121018EA8BC44085 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A5B1B585DE81690D19AE10A9E53C0FC5 /* Pods-MathematicsO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 247821DC7BCA2112B6930D2FE7B23AF5 /* Pods-MathematicsO_Tests-dummy.m */; };
+		B889A04C83EDF56AEF7E475D7B640626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C0429EE07A12699A1EDFC1E7D97E39F7 /* MathematicsO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EB235B417D4E7106321E6B3767A6E83 /* MathematicsO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5940C429B05164DAA29E60CA8BE452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E883B3F92723CA3F003319ED /* MathematicsO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883B3F82723CA3F003319ED /* MathematicsO.swift */; };
+		E944F7B52DB7E30C7099280C870608E6 /* Pods-MathematicsO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87025B4F72143D05480CA932858FA230 /* Pods-MathematicsO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D2EAAADAA4EF40A9E05E80CFBF3D67B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF17156C3AD97BA0329D775ECC4750C;
+			remoteInfo = MathematicsO;
+		};
+		69AC276DAAAFD80263CFA5BA5F86A229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F98A69D75A4B6085194A4C539A9E3D3;
+			remoteInfo = "Pods-MathematicsO_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B1326A9E1D2EDB9502EAE2D766B637 /* Pods-MathematicsO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MathematicsO_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0EB235B417D4E7106321E6B3767A6E83 /* MathematicsO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MathematicsO-umbrella.h"; sourceTree = "<group>"; };
+		0ED8F8B9D0DBBC8C86A7339081CD7317 /* Pods-MathematicsO_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MathematicsO_Example.modulemap"; sourceTree = "<group>"; };
+		171F150370506A116FAD8CE96C33B453 /* Pods-MathematicsO_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MathematicsO_Example-umbrella.h"; sourceTree = "<group>"; };
+		17D21594CB4C846256D59DF958D722FA /* MathematicsO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MathematicsO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE12BC2AC786137ADED1629224D7AB2 /* Pods-MathematicsO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MathematicsO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2426CBE26772D08D324FC2F2B691E771 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		247821DC7BCA2112B6930D2FE7B23AF5 /* Pods-MathematicsO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MathematicsO_Tests-dummy.m"; sourceTree = "<group>"; };
+		27495E94C34EE1FE9CA20357822E5007 /* Pods-MathematicsO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MathematicsO_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F747DDF451E84CD03D57B8AFAECEDCF /* Pods-MathematicsO_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MathematicsO_Tests-Info.plist"; sourceTree = "<group>"; };
+		3336652389D0F04196EF8AF5445DCE8D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E6FD28D806D3DBC8D14F3C43D3551E6 /* Pods-MathematicsO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MathematicsO_Tests.modulemap"; sourceTree = "<group>"; };
+		45227FE39D8C337674F5D333421CD0F9 /* Pods-MathematicsO_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MathematicsO_Example-frameworks.sh"; sourceTree = "<group>"; };
+		53F1841962BBDEE74428BCC3A865E6B4 /* MathematicsO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MathematicsO.modulemap; sourceTree = "<group>"; };
+		68114A5D4D47D4CE77851D2A3FF413C6 /* Pods-MathematicsO_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MathematicsO_Example-Info.plist"; sourceTree = "<group>"; };
+		6989FB1A59D510CD52436F64C6964226 /* MathematicsO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MathematicsO.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7979197CD73C3EC62C81517A12F9938F /* MathematicsO.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MathematicsO.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85D0DFCA1973CBAA43795B210D273077 /* MathematicsO-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MathematicsO-Info.plist"; sourceTree = "<group>"; };
+		85EE2AFB7DB1B8C25DD27FE759474141 /* Pods-MathematicsO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MathematicsO_Example-dummy.m"; sourceTree = "<group>"; };
+		87025B4F72143D05480CA932858FA230 /* Pods-MathematicsO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MathematicsO_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8E1465125CB619F7493C035F15A82547 /* Pods-MathematicsO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MathematicsO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99125C3D0255C84AAEBE6DAD91580939 /* Pods-MathematicsO_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MathematicsO_Example"; path = Pods_MathematicsO_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38EB2B90DC6AE06FB51EF6F82FB2C1D /* MathematicsO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MathematicsO-dummy.m"; sourceTree = "<group>"; };
+		B178D130092F80CEF9882944795DF886 /* Pods-MathematicsO_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MathematicsO_Tests"; path = Pods_MathematicsO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB90FF45FC7BD2AB534F49CC5F298E6D /* Pods-MathematicsO_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MathematicsO_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2F7F961B5DF5F4136DE8096B6AEFBAA /* Pods-MathematicsO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MathematicsO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9BA1B83D284B437C2B5B7EC65D2CD82 /* Pods-MathematicsO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MathematicsO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E60F997D728B32B9A96EFC04F9CEBA0B /* MathematicsO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MathematicsO-prefix.pch"; sourceTree = "<group>"; };
+		E68D288E2C56980A9A5F3B0D9C491914 /* Pods-MathematicsO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MathematicsO_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E883B3F82723CA3F003319ED /* MathematicsO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MathematicsO.swift; path = MathematicsO/Classes/MathematicsO.swift; sourceTree = "<group>"; };
+		F2F577752887D7801FF8F282ABB34CFB /* MathematicsO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MathematicsO.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079DF275F86D764E62865290521DD1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B889A04C83EDF56AEF7E475D7B640626 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFD28DB3A00C7C32D14B2A31FF98734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9140BE2BAF259D24121018EA8BC44085 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E208D44EEF65B094762E6D37DFD7CFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5940C429B05164DAA29E60CA8BE452 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0885619C85DD21ABAF1B2E68C59BCDCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2A139B8B9E831F78D6FB6C25F5FAD /* Pods-MathematicsO_Example */,
+				9F56B8BB9D4E5C0E425E23E137C3D29E /* Pods-MathematicsO_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1784232B1F3EFA937CDDDFC136FFCD18 /* MathematicsO */ = {
+			isa = PBXGroup;
+			children = (
+				E883B3F82723CA3F003319ED /* MathematicsO.swift */,
+				EE16E41BA21A88E91ED864C137F8B7FA /* Pod */,
+				344C0A74007DC249BBCD89617F58AB0F /* Support Files */,
+			);
+			name = MathematicsO;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		344C0A74007DC249BBCD89617F58AB0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53F1841962BBDEE74428BCC3A865E6B4 /* MathematicsO.modulemap */,
+				A38EB2B90DC6AE06FB51EF6F82FB2C1D /* MathematicsO-dummy.m */,
+				85D0DFCA1973CBAA43795B210D273077 /* MathematicsO-Info.plist */,
+				E60F997D728B32B9A96EFC04F9CEBA0B /* MathematicsO-prefix.pch */,
+				0EB235B417D4E7106321E6B3767A6E83 /* MathematicsO-umbrella.h */,
+				F2F577752887D7801FF8F282ABB34CFB /* MathematicsO.debug.xcconfig */,
+				6989FB1A59D510CD52436F64C6964226 /* MathematicsO.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MathematicsO";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75983C27B9C464ACE868038C85D9F786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D21594CB4C846256D59DF958D722FA /* MathematicsO.framework */,
+				99125C3D0255C84AAEBE6DAD91580939 /* Pods-MathematicsO_Example */,
+				B178D130092F80CEF9882944795DF886 /* Pods-MathematicsO_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F56B8BB9D4E5C0E425E23E137C3D29E /* Pods-MathematicsO_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E6FD28D806D3DBC8D14F3C43D3551E6 /* Pods-MathematicsO_Tests.modulemap */,
+				C2F7F961B5DF5F4136DE8096B6AEFBAA /* Pods-MathematicsO_Tests-acknowledgements.markdown */,
+				1CE12BC2AC786137ADED1629224D7AB2 /* Pods-MathematicsO_Tests-acknowledgements.plist */,
+				247821DC7BCA2112B6930D2FE7B23AF5 /* Pods-MathematicsO_Tests-dummy.m */,
+				2F747DDF451E84CD03D57B8AFAECEDCF /* Pods-MathematicsO_Tests-Info.plist */,
+				87025B4F72143D05480CA932858FA230 /* Pods-MathematicsO_Tests-umbrella.h */,
+				8E1465125CB619F7493C035F15A82547 /* Pods-MathematicsO_Tests.debug.xcconfig */,
+				27495E94C34EE1FE9CA20357822E5007 /* Pods-MathematicsO_Tests.release.xcconfig */,
+			);
+			name = "Pods-MathematicsO_Tests";
+			path = "Target Support Files/Pods-MathematicsO_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D443E996C1E0F70B03D1D7A4A4BB27F2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				75983C27B9C464ACE868038C85D9F786 /* Products */,
+				0885619C85DD21ABAF1B2E68C59BCDCA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D443E996C1E0F70B03D1D7A4A4BB27F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1784232B1F3EFA937CDDDFC136FFCD18 /* MathematicsO */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EDC2A139B8B9E831F78D6FB6C25F5FAD /* Pods-MathematicsO_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0ED8F8B9D0DBBC8C86A7339081CD7317 /* Pods-MathematicsO_Example.modulemap */,
+				C9BA1B83D284B437C2B5B7EC65D2CD82 /* Pods-MathematicsO_Example-acknowledgements.markdown */,
+				BB90FF45FC7BD2AB534F49CC5F298E6D /* Pods-MathematicsO_Example-acknowledgements.plist */,
+				85EE2AFB7DB1B8C25DD27FE759474141 /* Pods-MathematicsO_Example-dummy.m */,
+				45227FE39D8C337674F5D333421CD0F9 /* Pods-MathematicsO_Example-frameworks.sh */,
+				68114A5D4D47D4CE77851D2A3FF413C6 /* Pods-MathematicsO_Example-Info.plist */,
+				171F150370506A116FAD8CE96C33B453 /* Pods-MathematicsO_Example-umbrella.h */,
+				03B1326A9E1D2EDB9502EAE2D766B637 /* Pods-MathematicsO_Example.debug.xcconfig */,
+				E68D288E2C56980A9A5F3B0D9C491914 /* Pods-MathematicsO_Example.release.xcconfig */,
+			);
+			name = "Pods-MathematicsO_Example";
+			path = "Target Support Files/Pods-MathematicsO_Example";
+			sourceTree = "<group>";
+		};
+		EE16E41BA21A88E91ED864C137F8B7FA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2426CBE26772D08D324FC2F2B691E771 /* LICENSE */,
+				7979197CD73C3EC62C81517A12F9938F /* MathematicsO.podspec */,
+				3336652389D0F04196EF8AF5445DCE8D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A3B788C0953BB5973B66BCC9EA973B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0429EE07A12699A1EDFC1E7D97E39F7 /* MathematicsO-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3096F9444A60366DE2D7C4191246E91D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E944F7B52DB7E30C7099280C870608E6 /* Pods-MathematicsO_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D791429AC78BD3C459EFE4C75A0BC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EEFA5CF77FBEFC8E6E87B7EDC7790B /* Pods-MathematicsO_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F98A69D75A4B6085194A4C539A9E3D3 /* Pods-MathematicsO_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C42D82E81DFC85A2210B301DF3057CE /* Build configuration list for PBXNativeTarget "Pods-MathematicsO_Example" */;
+			buildPhases = (
+				D3D791429AC78BD3C459EFE4C75A0BC0 /* Headers */,
+				4D2E685E1CBEF46B33F2DCBCA154E03E /* Sources */,
+				E208D44EEF65B094762E6D37DFD7CFC0 /* Frameworks */,
+				09F7B0EF6059ADE7C4B8A33C288962FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E42B3D46E2E38FBC14AFF29A900CD2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MathematicsO_Example";
+			productName = Pods_MathematicsO_Example;
+			productReference = 99125C3D0255C84AAEBE6DAD91580939 /* Pods-MathematicsO_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C32302D8C504F3F15DE61B8225A05F50 /* Pods-MathematicsO_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FEECB9E2FA7A6A0A3F2A1EAA2C3840 /* Build configuration list for PBXNativeTarget "Pods-MathematicsO_Tests" */;
+			buildPhases = (
+				3096F9444A60366DE2D7C4191246E91D /* Headers */,
+				AF577C786D67D4ADD1C7091F7750004C /* Sources */,
+				2FFD28DB3A00C7C32D14B2A31FF98734 /* Frameworks */,
+				F8EA24C3D3E802B1C09343C8E98E9C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D90193CF917265228B65B5A4474D0AA /* PBXTargetDependency */,
+			);
+			name = "Pods-MathematicsO_Tests";
+			productName = Pods_MathematicsO_Tests;
+			productReference = B178D130092F80CEF9882944795DF886 /* Pods-MathematicsO_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBF17156C3AD97BA0329D775ECC4750C /* MathematicsO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F883644A092C1275EC04930442F038BC /* Build configuration list for PBXNativeTarget "MathematicsO" */;
+			buildPhases = (
+				1A3B788C0953BB5973B66BCC9EA973B1 /* Headers */,
+				CC66B1878E3FD4B01463FE1AF5A68E8D /* Sources */,
+				079DF275F86D764E62865290521DD1F7 /* Frameworks */,
+				2A01F0757B8C0755BA76986E12298CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathematicsO;
+			productName = MathematicsO;
+			productReference = 17D21594CB4C846256D59DF958D722FA /* MathematicsO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CBF17156C3AD97BA0329D775ECC4750C = {
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 75983C27B9C464ACE868038C85D9F786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF17156C3AD97BA0329D775ECC4750C /* MathematicsO */,
+				6F98A69D75A4B6085194A4C539A9E3D3 /* Pods-MathematicsO_Example */,
+				C32302D8C504F3F15DE61B8225A05F50 /* Pods-MathematicsO_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F7B0EF6059ADE7C4B8A33C288962FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A01F0757B8C0755BA76986E12298CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8EA24C3D3E802B1C09343C8E98E9C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D2E685E1CBEF46B33F2DCBCA154E03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA0C15DB34C7AF5630772F3A5F41359 /* Pods-MathematicsO_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF577C786D67D4ADD1C7091F7750004C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B1B585DE81690D19AE10A9E53C0FC5 /* Pods-MathematicsO_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC66B1878E3FD4B01463FE1AF5A68E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883B3F92723CA3F003319ED /* MathematicsO.swift in Sources */,
+				332826E1712D877C410C859BE49D8458 /* MathematicsO-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D90193CF917265228B65B5A4474D0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MathematicsO_Example";
+			target = 6F98A69D75A4B6085194A4C539A9E3D3 /* Pods-MathematicsO_Example */;
+			targetProxy = 69AC276DAAAFD80263CFA5BA5F86A229 /* PBXContainerItemProxy */;
+		};
+		E9E42B3D46E2E38FBC14AFF29A900CD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MathematicsO;
+			target = CBF17156C3AD97BA0329D775ECC4750C /* MathematicsO */;
+			targetProxy = 2D2EAAADAA4EF40A9E05E80CFBF3D67B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D82C13D89CF744E447789AA7A08263B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68D288E2C56980A9A5F3B0D9C491914 /* Pods-MathematicsO_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MathematicsO_Example/Pods-MathematicsO_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MathematicsO_Example/Pods-MathematicsO_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F88759D11168B09EF00E3C0EC043E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1465125CB619F7493C035F15A82547 /* Pods-MathematicsO_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MathematicsO_Tests/Pods-MathematicsO_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MathematicsO_Tests/Pods-MathematicsO_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5369C289B02DDC2F6CD8942C9B9A1187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F577752887D7801FF8F282ABB34CFB /* MathematicsO.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MathematicsO/MathematicsO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MathematicsO/MathematicsO-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MathematicsO/MathematicsO.modulemap";
+				PRODUCT_MODULE_NAME = MathematicsO;
+				PRODUCT_NAME = MathematicsO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79FE834E71B35B397E2E9C9AA2481E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6989FB1A59D510CD52436F64C6964226 /* MathematicsO.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MathematicsO/MathematicsO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MathematicsO/MathematicsO-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MathematicsO/MathematicsO.modulemap";
+				PRODUCT_MODULE_NAME = MathematicsO;
+				PRODUCT_NAME = MathematicsO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7CDDEF4737FD1A00F2B9708372D4DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27495E94C34EE1FE9CA20357822E5007 /* Pods-MathematicsO_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MathematicsO_Tests/Pods-MathematicsO_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MathematicsO_Tests/Pods-MathematicsO_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E5608C928AC304044C68CF9AB7816F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B1326A9E1D2EDB9502EAE2D766B637 /* Pods-MathematicsO_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MathematicsO_Example/Pods-MathematicsO_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MathematicsO_Example/Pods-MathematicsO_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C42D82E81DFC85A2210B301DF3057CE /* Build configuration list for PBXNativeTarget "Pods-MathematicsO_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5608C928AC304044C68CF9AB7816F7D /* Debug */,
+				0D82C13D89CF744E447789AA7A08263B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77FEECB9E2FA7A6A0A3F2A1EAA2C3840 /* Build configuration list for PBXNativeTarget "Pods-MathematicsO_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88759D11168B09EF00E3C0EC043E29 /* Debug */,
+				B7CDDEF4737FD1A00F2B9708372D4DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F883644A092C1275EC04930442F038BC /* Build configuration list for PBXNativeTarget "MathematicsO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5369C289B02DDC2F6CD8942C9B9A1187 /* Debug */,
+				79FE834E71B35B397E2E9C9AA2481E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
